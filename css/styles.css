@@ -187,7 +187,8 @@ h5 {
   width: 264px;
   height: 112px;
   display: flex;
-  padding: 24px 100px;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background: #f4f4fd;
@@ -278,6 +279,33 @@ h5 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.soc-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.go-to-soc {
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+  align-items: center;
+  justify-content: center;
+}
+.about-icon-list {
+  fill: #ffffff;
+}
+
+.go-to-soc:hover,
+.go-to-soc:focus {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 /*-----Selection-ourteam-------*/

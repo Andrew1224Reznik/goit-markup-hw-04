@@ -62,7 +62,7 @@ h5 {
   color: #4d5ae5;
 }
 
-.header-logo {
+.header-logo{ 
   padding: 24px 0;
   margin-right: 76px;
 }
@@ -91,6 +91,7 @@ h5 {
 
 .nav-link.current {
   position: relative;
+  color: #404bbf;
 }
 
 .nav-link.current::after {
@@ -289,6 +290,10 @@ h5 {
 }
 
 .ourteam-image {
+}
+
+.soc-ourteam{
+  
 }
 
 .ourteam-padding {

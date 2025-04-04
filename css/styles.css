@@ -150,6 +150,8 @@ h5 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-left: auto;
+margin-right: auto;
 }
 
 .hero-tittle {
@@ -322,6 +324,7 @@ width: 40px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .soc-list {
@@ -329,7 +332,6 @@ width: 40px;
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  margin-top: 8px;
 }
 
 
